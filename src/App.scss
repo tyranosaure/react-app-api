@@ -4,7 +4,7 @@
 
 		&.grid {
 			display: grid;
-			grid-template-columns: repeat(auto-fill, 420px);
+			grid-template-columns: repeat(auto-fill, 400px);
 			grid-column-gap: 20px;
 			grid-row-gap: 20px;
 			flex-wrap: wrap;
@@ -12,7 +12,7 @@
 			> .grid-item {
 				border: 2px solid rgba(black, 0.1);
 				height: 700px;
-				min-width: 420px;
+				width: 400px;
 				border-radius: 5px;
 				overflow: hidden;
 			}

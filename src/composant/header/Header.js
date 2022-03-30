@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.scss";
 export default function Header() {
 	return (
@@ -7,9 +8,10 @@ export default function Header() {
 				<nav>
 					<ul>
 						<li>
-							<a href="#" className="active">
-								Accueil
-							</a>
+							<Link to="/">Accueil</Link>
+						</li>
+						<li>
+							<Link to="/notFound">Page non trouvé</Link>
 						</li>
 					</ul>
 				</nav>

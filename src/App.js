@@ -1,17 +1,11 @@
 import "./App.scss";
-import Authentification from "./composant/authentification/Authentification";
 import Header from "./composant/header/Header";
-import Pager from "./composant/pager/Pager";
-
+import { ROUTES, RenderRoutes } from "./services/index";
 function App() {
 	return (
 		<div className="app">
 			<Header />
-			<div className="container grid">
-				<Authentification />
-				<Pager />
-				<div className="grid-item">Filtre</div>
-			</div>
+			<RenderRoutes routes={ROUTES} />
 		</div>
 	);
 }
