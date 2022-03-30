@@ -1,5 +1,5 @@
-import React from "react"
-import "./CompPager.scss"
+import React from "react";
+import "./CompPager.scss";
 export default function CompPager() {
 	return (
 		<div className="composant-pager">
@@ -18,5 +18,5 @@ export default function CompPager() {
 				</a>
 			</div>
 		</div>
-	)
+	);
 }

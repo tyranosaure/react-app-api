@@ -1,7 +1,7 @@
-import React from "react"
-import CompPager from "../comp-pager/CompPager"
-import "./Pager.scss"
-import PagerItem from "./PagerItem"
+import React from "react";
+import CompPager from "../comp-pager/CompPager";
+import "./Pager.scss";
+import PagerItem from "./PagerItem";
 export default function Pager() {
 	return (
 		<div className="grid-item pager">
@@ -22,5 +22,5 @@ export default function Pager() {
 			</div>
 			<CompPager />
 		</div>
-	)
+	);
 }

@@ -1,5 +1,5 @@
-import React from "react"
-import "./Authentification.scss"
+import React from "react";
+import "./Authentification.scss";
 
 export default function Authentification(props) {
 	return (
@@ -33,5 +33,5 @@ export default function Authentification(props) {
 				</button>
 			</div>
 		</div>
-	)
+	);
 }
