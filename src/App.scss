@@ -1,0 +1,18 @@
+.app {
+	.container {
+		margin: 1rem 5%;
+
+		&.grid {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-column-gap: 20px;
+			grid-row-gap: 20px;
+			> .grid-item {
+				border: 2px solid rgba(black, 0.1);
+				height: 700px;
+				border-radius: 5px;
+				overflow: hidden;
+			}
+		}
+	}
+}

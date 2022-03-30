@@ -1,0 +1,19 @@
+.header {
+	padding: 3rem 0;
+	> header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		border-bottom: 1px solid rgba(black, 0.1);
+		background-color: rgb(245, 244, 244);
+		ul {
+			display: flex;
+			align-items: center;
+
+			> li {
+				padding: 1rem 0.75rem;
+			}
+		}
+	}
+}

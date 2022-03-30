@@ -1,0 +1,12 @@
+.pager-item {
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	border: 1px solid rgba(black, 0.1);
+	cursor: pointer;
+	> p {
+		text-align: center;
+	}
+}
