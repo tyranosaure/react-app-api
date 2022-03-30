@@ -4,12 +4,15 @@
 
 		&.grid {
 			display: grid;
-			grid-template-columns: repeat(3, 1fr);
+			grid-template-columns: repeat(auto-fill, 420px);
 			grid-column-gap: 20px;
 			grid-row-gap: 20px;
+			flex-wrap: wrap;
+			justify-content: center;
 			> .grid-item {
 				border: 2px solid rgba(black, 0.1);
 				height: 700px;
+				min-width: 420px;
 				border-radius: 5px;
 				overflow: hidden;
 			}
