@@ -1,7 +1,7 @@
-import "./App.scss"
-import Authentification from "./composant/authentification/Authentification"
-import Header from "./composant/header/Header"
-import Pager from "./composant/pager/Pager"
+import "./App.scss";
+import Authentification from "./composant/authentification/Authentification";
+import Header from "./composant/header/Header";
+import Pager from "./composant/pager/Pager";
 
 function App() {
 	return (
@@ -14,7 +14,7 @@ function App() {
 				<div className="grid-item">Filtre</div>
 			</div> */}
 		</div>
-	)
+	);
 }
 
-export default App
+export default App;
