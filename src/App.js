@@ -6,12 +6,13 @@ import Pager from "./composant/pager/Pager"
 function App() {
 	return (
 		<div className="app">
-			<Header />
+			<h1>tests</h1>
+			{/* <Header />
 			<div className="container grid">
 				<Authentification />
 				<Pager />
 				<div className="grid-item">Filtre</div>
-			</div>
+			</div> */}
 		</div>
 	)
 }
