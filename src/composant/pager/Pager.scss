@@ -15,8 +15,9 @@
 		width: 100%;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		grid-column-gap: 20px;
-		grid-row-gap: 20px;
+		grid-template-rows: repeat(auto-fill, fit-content);
+		grid-column-gap: 15px;
+		grid-row-gap: 15px;
 		overflow-y: scroll;
 		padding: 1rem;
 	}

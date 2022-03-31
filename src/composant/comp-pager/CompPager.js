@@ -1,21 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./CompPager.scss";
 export default function CompPager() {
 	return (
 		<div className="composant-pager">
 			<div className="container">
-				<a href="#" className="item active">
+				<Link to="" className="item active">
 					1
-				</a>
-				<a href="#" className="item">
+				</Link>
+				<Link to="" className="item">
 					2
-				</a>
-				<a href="#" className="item">
+				</Link>
+				<Link to="" className="item">
 					3
-				</a>
-				<a href="#" className="item">
+				</Link>
+				<Link to="" className="item">
 					4
-				</a>
+				</Link>
 			</div>
 		</div>
 	);

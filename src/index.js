@@ -1,15 +1,16 @@
 import React from "react";
-import * as ReactDOMClient from "react-dom/client";
+import ReactDOM from "react-dom";
+import { Auth0Provider } from "@auth0/auth0-react";
 import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
+import * as AuthDatat from "./services/index";
 
-const container = document.getElementById("root");
-
-const root = ReactDOMClient.createRoot(container);
-
-root.render(
+ReactDOM.render(
 	<BrowserRouter>
-		<App />
-	</BrowserRouter>
+		<Auth0Provider domain={AuthDatat.domain} clientId={AuthDatat.clientID} redirectUri={window.location.origin}>
+			<App />
+		</Auth0Provider>
+	</BrowserRouter>,
+	document.getElementById("root")
 );
